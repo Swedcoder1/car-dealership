@@ -1,0 +1,81 @@
+import blueAudi from "./car-dealership-pics/blue-audi.jpg";
+import audiAThree from "./car-dealership-pics/audi-a3.jpg";
+import mercedesAmgGt from "./car-dealership-pics/mercedes-amg-gt.jpg";
+import mercedesAmg from "./car-dealership-pics/mercedes-amg.jpg";
+import bmwOne from "./car-dealership-pics/bmw-520d-xdrive.jpg";
+import bmwTwo from "./car-dealership-pics/bmw-530i.jpg";
+
+export const carData = [
+  {
+    id: 1,
+    img: blueAudi,
+    make: "Audi",
+    carName: "Audi RS-6",
+    horsePower: "400",
+    type: "sedan",
+    price: "650.000",
+    monthlyPrice: "6.500",
+    year: "2014",
+    miles: "3000",
+  },
+  {
+    id: 2,
+    img: audiAThree,
+    make: "Audi",
+    carName: "Audi A3",
+    horsePower: "150",
+    type: "combi",
+    price: "140.000",
+    monthlyPrice: "1.400",
+    year: "2016",
+    miles: "6000",
+  },
+  {
+    id: 3,
+    img: mercedesAmgGt,
+    make: "Mercedes",
+    carName: "Mercedes AMG-GT",
+    horsePower: "600",
+    type: "supercar",
+    price: "1.250.000",
+    monthlyPrice: "12.500",
+    year: "2018",
+    miles: "1500",
+  },
+  {
+    id: 4,
+    img: mercedesAmg,
+    make: "Mercedes",
+    carName: "Mercedes AMG",
+    horsePower: "450",
+    type: "cab",
+    price: "800.000",
+    monthlyPrice: "8.000",
+    year: "2018",
+    miles: "1500",
+  },
+  {
+    id: 5,
+    img: bmwOne,
+    make: "BMW",
+    carName: "BMW 520d Xdrive",
+    horsePower: "188",
+    type: "sedan",
+    price: "330.000",
+    monthlyPrice: "3.300",
+    year: "2016",
+    miles: "8000",
+  },
+  {
+    id: 6,
+    img: bmwTwo,
+    make: "BMW",
+    carName: "BMW 530i",
+    horsePower: "248",
+    type: "sedan",
+    price: "540.000",
+    monthlyPrice: "5.400",
+    year: "2021",
+    miles: "700",
+  },
+];
